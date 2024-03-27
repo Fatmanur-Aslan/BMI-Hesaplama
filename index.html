@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İnput ile BMI Hesaplama</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="comment">
+    <h1 style="text-align: center;">BMI(Body Mass Index)Hesaplama Nedir ?</h1>
+    <p style="text-align: center;">Kısaca kilonuzun, boyunuzun karesine bölümüdür. Çıkan sonuçla ideal kiloda olup olmadığınızı anlayabilir ya da ne durumda olduğunuzu görebilirsiniz.</p>
+    <p style="text-align: center;">10-18,15	Zayıf
+        <br>
+        18,5-25	Sağlıklı
+        <br>
+        25,30	Kilolu
+        <br>
+        30-40	Şişman
+        <br>	
+        40-60	Aşırı Şişman	</p>
+</div>
+<br>
+<table class="table">
+    <tr>
+    <td>Kilonuzu Giriniz:</td>
+    <td><input type="text" id="kiloİnput"></td>
+    <td>Boyunuzu Giriniz:</td>
+    <td> <input type="text" id="boyİnput"></td>
+    <td><input type="button" value="HESAPLA" onclick="Hesapla()"></td>
+</tr>
+<tr>
+    <td>Sonuç:</td>
+    <td colspan="2"><span id="sonucSpan"></span></td>
+</tr>
+
+</table>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
